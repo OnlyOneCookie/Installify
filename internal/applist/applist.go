@@ -1,0 +1,41 @@
+package applist
+
+var AppMappings = map[string]map[string]string{
+	"windows": {
+		"Spotify":            "spotify",
+		"Discord Canary":     "discord-canary",
+		"Discord":            "discord",
+		"Brave Browser":      "brave",
+		"JetBrains Toolbox":  "jetbrainstoolbox",
+		"Git":                "git",
+		"Python":             "python",
+		"Steam":              "steam",
+		"OBS Studio":         "obs-studio",
+		"Epic Games":         "epicgameslauncher",
+		"Visual Studio Code": "vscode",
+		"Ubisoft Connect":    "ubisoft-connect",
+	},
+	"darwin": {
+		"Spotify":            "spotify",
+		"Discord Canary":     "@discord@canary",
+		"Discord":            "discord",
+		"Brave Browser":      "brave-browser",
+		"JetBrains Toolbox":  "jetbrains-toolbox",
+		"Hyper.js":           "hyper",
+		"Git":                "git",
+		"Python":             "python@3",
+		"Steam":              "steam",
+		"OBS Studio":         "obs",
+		"Epic Games":         "epic-games",
+		"Visual Studio Code": "visual-studio-code",
+	},
+	"linux": {
+		"Spotify":           "spotify-client",
+		"Discord Canary":    "discord-canary",
+		"Discord":           "discord",
+		"Brave Browser":     "brave-browser",
+		"JetBrains Toolbox": "jetbrains-toolbox",
+		"Git":               "git",
+		"Python 3":          "python3",
+	},
+}
