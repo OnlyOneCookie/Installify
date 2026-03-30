@@ -1,6 +1,6 @@
 module Installify
 
-go 1.23.1
+go 1.25.0
 
 require (
 	github.com/AllenDang/giu v0.8.1
@@ -24,7 +24,7 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	golang.design/x/hotkey v0.4.1 // indirect
 	golang.design/x/mainthread v0.3.0 // indirect
-	golang.org/x/image v0.18.0 // indirect
+	golang.org/x/image v0.38.0 // indirect
 	golang.org/x/sys v0.20.0 // indirect
 	gopkg.in/eapache/queue.v1 v1.1.0 // indirect
 )
